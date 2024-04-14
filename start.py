@@ -1,14 +1,13 @@
 import argparse
 import pandas as pd
-
-from utils import read_data, augment_data
-from utils import *
-from hog import HOGFeatureExtractor
-from fisher_vector import FisherVectorExtractor
-from kernel_pca import KernelPCA
-from kernels import GaussianKernel,LinearKernel,LaplacianRBFKernel,HellingerKernel,SublinearRBFKernel,GaussianKernel_orientation
-from KRC import KernelRidgeClassifier
-from SVM import OneVsAllClassifier,SVM_perso,SVM
+import numpy as np
+from src.utils import *
+from src.hog import HOGFeatureExtractor
+from src.fisher_vector import FisherVectorExtractor
+from src.kernel_pca import KernelPCA
+from src.kernels import GaussianKernel,LinearKernel,LaplacianRBFKernel,HellingerKernel,SublinearRBFKernel,GaussianKernel_orientation
+from src.KRC import KernelRidgeClassifier
+from src.SVM import OneVsAllClassifier,SVM_perso,SVM
 
 def parse_args():
     parser = argparse.ArgumentParser(prog='start',
