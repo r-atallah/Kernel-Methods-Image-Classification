@@ -9,7 +9,7 @@ In this project, we implemented kernel PCA, various kernel methods and feature e
 - **Kernel Ridge Classifier (KRC):** A classifier based on kernel ridge regression, implemented from scratch.
 - **Kernel SVM with SMO Optimization:** A support vector machine (SVM) classifier with [Sequential Minimal Optimization (SMO)](https://www.microsoft.com/en-us/research/uploads/prod/1998/04/sequential-minimal-optimization.pdf) optimization, implemented from scratch.
 - **Feature Extraction:**
-  - [Histogram of Oriented Gradients (HOG)]()
+  - Histogram of Oriented Gradients (HOG)
   - [Scale Invariant Feature Transform (SIFT)](https://www.researchgate.net/publication/235355151_Scale_Invariant_Feature_Transform)
   - [Kernel Descriptors](https://rse-lab.cs.washington.edu/postscripts/kdes-nips-10.pdf)
   - [Fisher Vector](https://inria.hal.science/hal-00830491v2/document)
